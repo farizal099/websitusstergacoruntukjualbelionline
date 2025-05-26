@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.login-container {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+.login-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2f5d3f;
+}
+
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+
+button.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2f5d3f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button.login-btn:hover {
+  background-color: #244a32;
+}
+
+
+.daftar-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.daftar-link a {
+  color: #2f5d3f;
+  text-decoration: none;
+}
+
+.daftar-link a:hover {
+  text-decoration: underline;
+}
+
+a.btn-login {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+a.btn-login:hover {
+  background-color: #3c8d3c;
+}
+
+
+@media (max-width: 600px) {
+  .login-container {
+    padding: 25px 20px;
+    max-width: 90%;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    font-size: 14px;
+  }
+
+  .login-container h2 {
+    font-size: 22px;
+  }
+
+  a.btn-login {
+    font-size: 15px;
+  }
+
+  .small-text {
+    font-size: 13px;
+  }
+}
